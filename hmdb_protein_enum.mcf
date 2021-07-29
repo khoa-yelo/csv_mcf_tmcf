@@ -1,0 +1,4832 @@
+Node: dcid:ProteinTypeEnum
+typeOf: schema:Class
+subClassOf: schema:Enumeration
+name: "ProteinTypeEnum"
+description: "Type of Protein."
+
+Node: dcid:ProteinTypeUnknown
+name: "Unknown"
+typeOf: dcs:ProteinTypeEnum
+
+Node: dcid:ProteinTypeEnzyme
+name: "Enzyme"
+typeOf: dcs:ProteinTypeEnum
+
+Node: dcid:ProteinTypeTransporter
+name: "Transporter"
+typeOf: dcs:ProteinTypeEnum
+
+Node: dcid:CellularCompartmentCellMembrane
+name: "CellMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCytoplasm
+name: "Cytoplasm"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentNucleus
+name: "Nucleus"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrion
+name: "Mitochondrion"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrionMatrix
+name: "MitochondrionMatrix"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEndomembraneSystem
+name: "EndomembraneSystem"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentPeroxisome
+name: "Peroxisome"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentGolgiApparatusMembrane
+name: "GolgiApparatusMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLysosome
+name: "Lysosome"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSecreted
+name: "Secreted"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCytoplasmicGranule
+name: "CytoplasmicGranule"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentPeripheralMembraneProtein
+name: "PeripheralMembraneProtein"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMembrane
+name: "Membrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMultiPassMembraneProtein
+name: "MultiPassMembraneProtein"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLipidAnchor
+name: "LipidAnchor"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEndoplasmicReticulumMembrane
+name: "EndoplasmicReticulumMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMelanosomeMembrane
+name: "MelanosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLysosomeMembrane
+name: "LysosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSinglePassTypeIMembraneProtein
+name: "SinglePassTypeIMembraneProtein"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrionIntermembraneSpace
+name: "MitochondrionIntermembraneSpace"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrionInnerMembrane
+name: "MitochondrionInnerMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSinglePassMembraneProtein
+name: "SinglePassMembraneProtein"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrionMembrane
+name: "MitochondrionMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMicrosome
+name: "Microsome"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMitochondrionOuterMembrane
+name: "MitochondrionOuterMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCytoplasmicVesicle
+name: "CytoplasmicVesicle"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSinglePassTypeIiMembraneProtein
+name: "SinglePassTypeIiMembraneProtein"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCellSurface
+name: "CellSurface"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEndoplasmicReticulumLumen
+name: "EndoplasmicReticulumLumen"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLysosomeLumen
+name: "LysosomeLumen"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentGolgiApparatus
+name: "GolgiApparatus"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentGolgiApparatusLumen
+name: "GolgiApparatusLumen"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEndoplasmicReticulum
+name: "EndoplasmicReticulum"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMelanosome
+name: "Melanosome"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentNucleusSpeckle
+name: "NucleusSpeckle"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentPerinuclearRegion
+name: "PerinuclearRegion"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentGpiAnchor
+name: "GpiAnchor"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEndosomeMembrane
+name: "EndosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCellJunction
+name: "CellJunction"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentPeroxisomeMembrane
+name: "PeroxisomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentNucleusMatrix
+name: "NucleusMatrix"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCytoskeleton
+name: "Cytoskeleton"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentMicrosomeMembrane
+name: "MicrosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLipidDroplet
+name: "LipidDroplet"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentAlpha1
+name: "Alpha1"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentLateEndosomeMembrane
+name: "LateEndosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentPeroxisomeMatrix
+name: "PeroxisomeMatrix"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSarcoplasmicReticulumLumen
+name: "SarcoplasmicReticulumLumen"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCellProjection
+name: "CellProjection"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentExtracellularSpace
+name: "ExtracellularSpace"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentSecretoryVesicle
+name: "SecretoryVesicle"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentCytosol
+name: "Cytosol"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentEarlyEndosomeMembrane
+name: "EarlyEndosomeMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentBasalCellMembrane
+name: "BasalCellMembrane"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:CellularCompartmentVirion
+name: "Virion"
+typeOf: dcs:CellularCompartmentEnum
+
+Node: dcid:KeggProteinPathwayEnum
+typeOf: schema:Class
+subClassOf: schema:Enumeration
+name: "KeggProteinPathwayEnum"
+description: "Kegg Protein Pathway."
+
+Node: dcid:KeggProteinPathwayNicotinateAndNicotinamideMetabolism
+name: "NicotinateAndNicotinamideMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPurineMetabolism
+name: "PurineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyrimidineMetabolism
+name: "PyrimidineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaUreidopropionaseDeficiency
+name: "BetaUreidopropionaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDihydropyrimidinaseDeficiency
+name: "DihydropyrimidinaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGemcitabineActionPathway
+name: "GemcitabineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGemcitabineMetabolismPathway
+name: "GemcitabineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMngieMitochondrialNeurogastrointestinalEncephalopathy
+name: "MngieMitochondrialNeurogastrointestinalEncephalopathy"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUmpSynthaseDeficiencyOroticAciduria
+name: "UmpSynthaseDeficiencyOroticAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalDisorderOfGlycosylationCdgIid
+name: "CongenitalDisorderOfGlycosylationCdgIid"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlut1DeficiencySyndrome
+name: "Glut1DeficiencySyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLactoseSynthesis
+name: "LactoseSynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLamivudineMetabolismPathway
+name: "LamivudineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayS3Hydroxy3MethylglutarylCoaDegradation
+name: "S3Hydroxy3MethylglutarylCoaDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2Methyl3HydroxybutrylCoaDehydrogenaseDeficiency
+name: "2Methyl3HydroxybutrylCoaDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3Hydroxy3MethylglutarylCoaLyaseDeficiency
+name: "3Hydroxy3MethylglutarylCoaLyaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3HydroxyisobutyricAcidDehydrogenaseDeficiency
+name: "3HydroxyisobutyricAcidDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3HydroxyisobutyricAciduria
+name: "3HydroxyisobutyricAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3MethylcrotonylCoaCarboxylaseDeficiencyTypeI
+name: "3MethylcrotonylCoaCarboxylaseDeficiencyTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3MethylglutaconicAciduriaTypeI
+name: "3MethylglutaconicAciduriaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3MethylglutaconicAciduriaTypeIii
+name: "3MethylglutaconicAciduriaTypeIii"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3MethylglutaconicAciduriaTypeIv
+name: "3MethylglutaconicAciduriaTypeIv"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaKetothiolaseDeficiency
+name: "BetaKetothiolaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayButanoateMetabolism
+name: "ButanoateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayButyrateMetabolism
+name: "ButyrateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsobutyrylCoaDehydrogenaseDeficiency
+name: "IsobutyrylCoaDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsovalericAcidemia
+name: "IsovalericAcidemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsovalericAciduria
+name: "IsovalericAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKetoneBodyMetabolism
+name: "KetoneBodyMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMapleSyrupUrineDisease
+name: "MapleSyrupUrineDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethylmalonateSemialdehydeDehydrogenaseDeficiency
+name: "MethylmalonateSemialdehydeDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethylmalonicAciduria
+name: "MethylmalonicAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPeroxisome
+name: "Peroxisome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropionicAcidemia
+name: "PropionicAcidemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySuccinylCoa3KetoacidCoaTransferaseDeficiency
+name: "SuccinylCoa3KetoacidCoaTransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySynthesisAndDegradationOfKetoneBodies
+name: "SynthesisAndDegradationOfKetoneBodies"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayValineLeucineAndIsoleucineDegradation
+name: "ValineLeucineAndIsoleucineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCitrateCycleTcaCycle
+name: "CitrateCycleTcaCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutaminolysisAndCancer
+name: "GlutaminolysisAndCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTransferOfAcetylGroupsIntoMitochondria
+name: "TransferOfAcetylGroupsIntoMitochondria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdherensJunction
+name: "AdherensJunction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCellCycle
+name: "CellCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEpsteinBarrVirusInfection
+name: "EpsteinBarrVirusInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHepatitisB
+name: "HepatitisB"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHerpesSimplexInfection
+name: "HerpesSimplexInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHif1SignalingPathway
+name: "Hif1SignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHtlvIInfection
+name: "HtlvIInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHuntingtonSDisease
+name: "HuntingtonSDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInfluenzaA
+name: "InfluenzaA"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayJakStatSignalingPathway
+name: "JakStatSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLongTermPotentiation
+name: "LongTermPotentiation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMelanogenesis
+name: "Melanogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNotchSignalingPathway
+name: "NotchSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProstateCancer
+name: "ProstateCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRenalCellCarcinoma
+name: "RenalCellCarcinoma"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTgfBetaSignalingPathway
+name: "TgfBetaSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTuberculosis
+name: "Tuberculosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayViralCarcinogenesis
+name: "ViralCarcinogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayWntSignalingPathway
+name: "WntSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2KetoglutarateDehydrogenaseComplexDeficiency
+name: "2KetoglutarateDehydrogenaseComplexDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCitricAcidCycle
+name: "CitricAcidCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalLacticAcidosis
+name: "CongenitalLacticAcidosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFumaraseDeficiency
+name: "FumaraseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycolysisGluconeogenesis
+name: "GlycolysisGluconeogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeighSyndrome
+name: "LeighSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialComplexIiDeficiency
+name: "MitochondrialComplexIiDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrimaryHyperoxaluriaIiPh2
+name: "PrimaryHyperoxaluriaIiPh2"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateDecarboxylaseE1ComponentDeficiencyPdhe1Deficiency
+name: "PyruvateDecarboxylaseE1ComponentDeficiencyPdhe1Deficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateDehydrogenaseComplexDeficiency
+name: "PyruvateDehydrogenaseComplexDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateDehydrogenaseDeficiencyE2
+name: "PyruvateDehydrogenaseDeficiencyE2"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateDehydrogenaseDeficiencyE3
+name: "PyruvateDehydrogenaseDeficiencyE3"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateKinaseDeficiency
+name: "PyruvateKinaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateMetabolism
+name: "PyruvateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTheOncogenicActionOf2Hydroxyglutarate
+name: "TheOncogenicActionOf2Hydroxyglutarate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTheOncogenicActionOfD2HydroxyglutarateInHydroxygluaricaciduria
+name: "TheOncogenicActionOfD2HydroxyglutarateInHydroxygluaricaciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTheOncogenicActionOfFumarate
+name: "TheOncogenicActionOfFumarate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTheOncogenicActionOfL2HydroxyglutarateInHydroxygluaricaciduria
+name: "TheOncogenicActionOfL2HydroxyglutarateInHydroxygluaricaciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTheOncogenicActionOfSuccinate
+name: "TheOncogenicActionOfSuccinate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayWarburgEffect
+name: "WarburgEffect"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlendronateActionPathway
+name: "AlendronateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAtorvastatinActionPathway
+name: "AtorvastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCerivastatinActionPathway
+name: "CerivastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChildSyndrome
+name: "ChildSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCholesterylEsterStorageDisease
+name: "CholesterylEsterStorageDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChondrodysplasiaPunctataIiXLinkedDominantCdpx2
+name: "ChondrodysplasiaPunctataIiXLinkedDominantCdpx2"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDesmosterolosis
+name: "Desmosterolosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFatDigestionAndAbsorption
+name: "FatDigestionAndAbsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFattyAcidMetabolism
+name: "FattyAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFluvastatinActionPathway
+name: "FluvastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlyoxylateAndDicarboxylateMetabolism
+name: "GlyoxylateAndDicarboxylateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperIgdSyndrome
+name: "HyperIgdSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHypercholesterolemia
+name: "Hypercholesterolemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIbandronateActionPathway
+name: "IbandronateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLovastatinActionPathway
+name: "LovastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysineDegradation
+name: "LysineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysosomalAcidLipaseDeficiencyWolmanDisease
+name: "LysosomalAcidLipaseDeficiencyWolmanDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMevalonicAciduria
+name: "MevalonicAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPamidronateActionPathway
+name: "PamidronateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPravastatinActionPathway
+name: "PravastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropanoateMetabolism
+name: "PropanoateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRisedronateActionPathway
+name: "RisedronateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRosuvastatinActionPathway
+name: "RosuvastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySimvastatinActionPathway
+name: "SimvastatinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySmithLemliOpitzSyndromeSlos
+name: "SmithLemliOpitzSyndromeSlos"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySteroidBiosynthesis
+name: "SteroidBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTerpenoidBackboneBiosynthesis
+name: "TerpenoidBackboneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTryptophanMetabolism
+name: "TryptophanMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayWolmanDisease
+name: "WolmanDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayZoledronateActionPathway
+name: "ZoledronateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArginineAndProlineMetabolism
+name: "ArginineAndProlineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPutrescineDegradation
+name: "PutrescineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcetylCoaBiosynthesis
+name: "AcetylCoaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaAlanineMetabolism
+name: "BetaAlanineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMalonicAciduria
+name: "MalonicAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMalonylCoaDecarboxylaseDeficiency
+name: "MalonylCoaDecarboxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethylmalonicAciduriaDueToCobalaminRelatedDisorders
+name: "MethylmalonicAciduriaDueToCobalaminRelatedDisorders"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycineSerineAndThreonineMetabolism
+name: "GlycineSerineAndThreonineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPorphyrinAndChlorophyllMetabolism
+name: "PorphyrinAndChlorophyllMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProtoporphyrinIxBiosynthesis
+name: "ProtoporphyrinIxBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdipocytokineSignalingPathway
+name: "AdipocytokineSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFattyAcidBiosynthesis
+name: "FattyAcidBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInsulinSignalingPathway
+name: "InsulinSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMalonylCoaBiosynthesis
+name: "MalonylCoaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlanineMetabolism
+name: "AlanineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructose16DiphosphataseDeficiency
+name: "Fructose16DiphosphataseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGluconeogenesis
+name: "Gluconeogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenStorageDiseaseType1AGsd1AOrVonGierkeDisease
+name: "GlycogenStorageDiseaseType1AGsd1AOrVonGierkeDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeIaVonGierkeDisease
+name: "GlycogenosisTypeIaVonGierkeDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeIb
+name: "GlycogenosisTypeIb"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeIc
+name: "GlycogenosisTypeIc"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLacticAcidemia
+name: "LacticAcidemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphoenolpyruvateCarboxykinaseDeficiency1Pepck1
+name: "PhosphoenolpyruvateCarboxykinaseDeficiency1Pepck1"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrimaryHyperoxaluriaTypeI
+name: "PrimaryHyperoxaluriaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateCarboxylaseDeficiency
+name: "PyruvateCarboxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTriosephosphateIsomerase
+name: "TriosephosphateIsomerase"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCaffeineMetabolism
+name: "CaffeineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChemicalCarcinogenesis
+name: "ChemicalCarcinogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDrugMetabolismOtherEnzymes
+name: "DrugMetabolismOtherEnzymes"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3PhosphoglycerateDehydrogenaseDeficiency
+name: "3PhosphoglycerateDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcuteIntermittentPorphyria
+name: "AcuteIntermittentPorphyria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalErythropoieticPorphyriaCepOrGuntherDisease
+name: "CongenitalErythropoieticPorphyriaCepOrGuntherDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDihydropyrimidineDehydrogenaseDeficiencyDhpd
+name: "DihydropyrimidineDehydrogenaseDeficiencyDhpd"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDimethylglycineDehydrogenaseDeficiency
+name: "DimethylglycineDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycineAndSerineMetabolism
+name: "GlycineAndSerineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHereditaryCoproporphyriaHcp
+name: "HereditaryCoproporphyriaHcp"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperglycinemiaNonKetotic
+name: "HyperglycinemiaNonKetotic"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNonKetoticHyperglycinemia
+name: "NonKetoticHyperglycinemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPorphyriaVariegataPv
+name: "PorphyriaVariegataPv"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPorphyrinMetabolism
+name: "PorphyrinMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySarcosinemia
+name: "Sarcosinemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCholinergicSynapse
+name: "CholinergicSynapse"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycerophospholipidMetabolism
+name: "GlycerophospholipidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhospholipidBiosynthesis
+name: "PhospholipidBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdrenoleukodystrophyXLinked
+name: "AdrenoleukodystrophyXLinked"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaOxidationOfVeryLongChainFattyAcids
+name: "BetaOxidationOfVeryLongChainFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnitineAcylcarnitineTranslocaseDeficiency
+name: "CarnitineAcylcarnitineTranslocaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxidationOfBranchedChainFattyAcids
+name: "OxidationOfBranchedChainFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMelatoninBiosynthesis
+name: "MelatoninBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnitinePalmitoylTransferaseDeficiencyI
+name: "CarnitinePalmitoylTransferaseDeficiencyI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnitinePalmitoylTransferaseDeficiencyIi
+name: "CarnitinePalmitoylTransferaseDeficiencyIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEthylmalonicEncephalopathy
+name: "EthylmalonicEncephalopathy"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFattyAcidElongation
+name: "FattyAcidElongation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFattyAcidElongationInMitochondria
+name: "FattyAcidElongationInMitochondria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutaricAciduriaTypeI
+name: "GlutaricAciduriaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLongChainAcylCoaDehydrogenaseDeficiencyLcad
+name: "LongChainAcylCoaDehydrogenaseDeficiencyLcad"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLongChain3HydroxyacylCoaDehydrogenaseDeficiencyLchad
+name: "LongChain3HydroxyacylCoaDehydrogenaseDeficiencyLchad"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMediumChainAcylCoaDehydrogenaseDeficiencyMcad
+name: "MediumChainAcylCoaDehydrogenaseDeficiencyMcad"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialBetaOxidationOfLongChainSaturatedFattyAcids
+name: "MitochondrialBetaOxidationOfLongChainSaturatedFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialBetaOxidationOfMediumChainSaturatedFattyAcids
+name: "MitochondrialBetaOxidationOfMediumChainSaturatedFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialBetaOxidationOfShortChainSaturatedFattyAcids
+name: "MitochondrialBetaOxidationOfShortChainSaturatedFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayShortChainAcylCoaDehydrogenaseDeficiencyScadDeficiency
+name: "ShortChainAcylCoaDehydrogenaseDeficiencyScadDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayShortChain3HydroxyacylCoaDehydrogenaseDeficiencySchad
+name: "ShortChain3HydroxyacylCoaDehydrogenaseDeficiencySchad"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrifunctionalProteinDeficiency
+name: "TrifunctionalProteinDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVeryLongChainAcylCoaDehydrogenaseDeficiencyVlcad
+name: "VeryLongChainAcylCoaDehydrogenaseDeficiencyVlcad"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDisulfiramActionPathway
+name: "DisulfiramActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEthanolDegradation
+name: "EthanolDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2Aminoadipic2OxoadipicAciduria
+name: "2Aminoadipic2OxoadipicAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperlysinemiaIFamilial
+name: "HyperlysinemiaIFamilial"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperlysinemiaIiOrSaccharopinuria
+name: "HyperlysinemiaIiOrSaccharopinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyridoxineDependencyWithSeizures
+name: "PyridoxineDependencyWithSeizures"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySaccharopinuriaHyperlysinemiaIi
+name: "SaccharopinuriaHyperlysinemiaIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRMevalonateBiosynthesis
+name: "RMevalonateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPparSignalingPathway
+name: "PparSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2OxocarboxylicAcidMetabolism
+name: "2OxocarboxylicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTricarboxylicAcidCycle
+name: "TricarboxylicAcidCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlphaLinolenicAcidMetabolism
+name: "AlphaLinolenicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBiosynthesisOfUnsaturatedFattyAcids
+name: "BiosynthesisOfUnsaturatedFattyAcids"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFattyAcidBetaOxidation
+name: "FattyAcidBetaOxidation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayValproicAcidMetabolismPathway
+name: "ValproicAcidMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLThreonineDegradationViaOxydoReductasePathway
+name: "LThreonineDegradationViaOxydoReductasePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnosinuriaCarnosinemia
+name: "CarnosinuriaCarnosinemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGabaTransaminaseDeficiency
+name: "GabaTransaminaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInositolPhosphateMetabolism
+name: "InositolPhosphateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUreidopropionaseDeficiency
+name: "UreidopropionaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2HydroxyglutricAciduriaDAndLForm
+name: "2HydroxyglutricAciduriaDAndLForm"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway4HydroxybutyricAciduriaSuccinicSemialdehydeDehydrogenaseDeficiency
+name: "4HydroxybutyricAciduriaSuccinicSemialdehydeDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAminoSugarAndNucleotideSugarMetabolism
+name: "AminoSugarAndNucleotideSugarMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAminoSugarMetabolism
+name: "AminoSugarMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGM2GangliosidosisVariantBTaySachsDisease
+name: "GM2GangliosidosisVariantBTaySachsDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutamateMetabolism
+name: "GlutamateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomocarnosinosis
+name: "Homocarnosinosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperinsulinismHyperammonemiaSyndrome
+name: "HyperinsulinismHyperammonemiaSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySallaDiseaseInfantileSialicAcidStorageDisease
+name: "SallaDiseaseInfantileSialicAcidStorageDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySialuriaOrFrenchTypeSialuria
+name: "SialuriaOrFrenchTypeSialuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySuccinicSemialdehydeDehydrogenaseDeficiency
+name: "SuccinicSemialdehydeDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTaySachsDisease
+name: "TaySachsDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUdpNAcetylAlphaDGlucosamineBiosynthesis
+name: "UdpNAcetylAlphaDGlucosamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmmoniaRecycling
+name: "AmmoniaRecycling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThreonineAnd2OxobutanoateDegradation
+name: "ThreonineAnd2OxobutanoateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysosome
+name: "Lysosome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArachidonicAcidMetabolism
+name: "ArachidonicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEtherLipidMetabolism
+name: "EtherLipidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLinoleicAcidMetabolism
+name: "LinoleicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPancreaticSecretion
+name: "PancreaticSecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVascularSmoothMuscleContraction
+name: "VascularSmoothMuscleContraction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFcEpsilonReceptorISignalingInMastCells
+name: "FcEpsilonReceptorISignalingInMastCells"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFcEpsilonRiSignalingPathway
+name: "FcEpsilonRiSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFcGammaRMediatedPhagocytosis
+name: "FcGammaRMediatedPhagocytosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutamatergicSynapse
+name: "GlutamatergicSynapse"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGnrhSignalingPathway
+name: "GnrhSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLongTermDepression
+name: "LongTermDepression"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMapkSignalingPathway
+name: "MapkSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySerotonergicSynapse
+name: "SerotonergicSynapse"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVegfSignalingPathway
+name: "VegfSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIndomethacinActionPathway
+name: "IndomethacinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway11BetaHydroxylaseDeficiencyCyp11B1
+name: "11BetaHydroxylaseDeficiencyCyp11B1"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway17AlphaHydroxylaseDeficiencyCyp17
+name: "17AlphaHydroxylaseDeficiencyCyp17"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway21HydroxylaseDeficiencyCyp21
+name: "21HydroxylaseDeficiencyCyp21"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway27HydroxylaseDeficiency
+name: "27HydroxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3BetaHydroxysteroidDehydrogenaseDeficiency
+name: "3BetaHydroxysteroidDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdrenalHyperplasiaType3OrCongenitalAdrenalHyperplasiaDueTo21HydroxylaseDeficiency
+name: "AdrenalHyperplasiaType3OrCongenitalAdrenalHyperplasiaDueTo21HydroxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdrenalHyperplasiaType5OrCongenitalAdrenalHyperplasiaDueTo17AlphaHydroxylaseDeficiency
+name: "AdrenalHyperplasiaType5OrCongenitalAdrenalHyperplasiaDueTo17AlphaHydroxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAndrostenedioneMetabolism
+name: "AndrostenedioneMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayApparentMineralocorticoidExcessSyndrome
+name: "ApparentMineralocorticoidExcessSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBileAcidBiosynthesis
+name: "BileAcidBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCerebrotendinousXanthomatosisCtx
+name: "CerebrotendinousXanthomatosisCtx"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalBileAcidSynthesisDefectTypeIi
+name: "CongenitalBileAcidSynthesisDefectTypeIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalBileAcidSynthesisDefectTypeIii
+name: "CongenitalBileAcidSynthesisDefectTypeIii"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCongenitalLipoidAdrenalHyperplasiaClahOrLipoidCah
+name: "CongenitalLipoidAdrenalHyperplasiaClahOrLipoidCah"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCorticosteroneMethylOxidaseIDeficiencyCmoI
+name: "CorticosteroneMethylOxidaseIDeficiencyCmoI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCorticosteroneMethylOxidaseIiDeficiencyCmoIi
+name: "CorticosteroneMethylOxidaseIiDeficiencyCmoIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFamilialHypercholanemiaFhca
+name: "FamilialHypercholanemiaFhca"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetabolismOfXenobioticsByCytochromeP450
+name: "MetabolismOfXenobioticsByCytochromeP450"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrimaryBileAcidBiosynthesis
+name: "PrimaryBileAcidBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySteroidHormoneBiosynthesis
+name: "SteroidHormoneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySteroidogenesis
+name: "Steroidogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayZellwegerSyndrome
+name: "ZellwegerSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcetaminophenActionPathway
+name: "AcetaminophenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcetylsalicylicAcidActionPathway
+name: "AcetylsalicylicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAntipyrineActionPathway
+name: "AntipyrineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAntrafenineActionPathway
+name: "AntrafenineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBromfenacActionPathway
+name: "BromfenacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarprofenActionPathway
+name: "CarprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCelecoxibActionPathway
+name: "CelecoxibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiclofenacActionPathway
+name: "DiclofenacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiflunisalActionPathway
+name: "DiflunisalActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDopaResponsiveDystonia
+name: "DopaResponsiveDystonia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDoxorubicinMetabolismPathway
+name: "DoxorubicinMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEtodolacActionPathway
+name: "EtodolacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEtoricoxibActionPathway
+name: "EtoricoxibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFenoprofenActionPathway
+name: "FenoprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFlurbiprofenActionPathway
+name: "FlurbiprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperphenylalaniemiaDueToGuanosineTriphosphateCyclohydrolaseDeficiency
+name: "HyperphenylalaniemiaDueToGuanosineTriphosphateCyclohydrolaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperphenylalaninemiaDueTo6PyruvoyltetrahydropterinSynthaseDeficiencyPtps
+name: "HyperphenylalaninemiaDueTo6PyruvoyltetrahydropterinSynthaseDeficiencyPtps"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperphenylalaninemiaDueToDhprDeficiency
+name: "HyperphenylalaninemiaDueToDhprDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIbuprofenActionPathway
+name: "IbuprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKetoprofenActionPathway
+name: "KetoprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKetorolacActionPathway
+name: "KetorolacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukotrieneC4SynthesisDeficiency
+name: "LeukotrieneC4SynthesisDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLornoxicamActionPathway
+name: "LornoxicamActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLumiracoxibActionPathway
+name: "LumiracoxibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMagnesiumSalicylateActionPathway
+name: "MagnesiumSalicylateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMefenamicAcidActionPathway
+name: "MefenamicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMeloxicamActionPathway
+name: "MeloxicamActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNabumetoneActionPathway
+name: "NabumetoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNaproxenActionPathway
+name: "NaproxenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNepafenacActionPathway
+name: "NepafenacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxaprozinActionPathway
+name: "OxaprozinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylbutazoneActionPathway
+name: "PhenylbutazoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPiroxicamActionPathway
+name: "PiroxicamActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPterineBiosynthesis
+name: "PterineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRofecoxibActionPathway
+name: "RofecoxibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySalicylateSodiumActionPathway
+name: "SalicylateSodiumActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySalicylicAcidActionPathway
+name: "SalicylicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySalsalateActionPathway
+name: "SalsalateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySegawaSyndrome
+name: "SegawaSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySepiapterinReductaseDeficiency
+name: "SepiapterinReductaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulindacActionPathway
+name: "SulindacActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySuprofenActionPathway
+name: "SuprofenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTenoxicamActionPathway
+name: "TenoxicamActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTiaprofenicAcidActionPathway
+name: "TiaprofenicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTolmetinActionPathway
+name: "TolmetinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrisalicylateCholineActionPathway
+name: "TrisalicylateCholineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayValdecoxibActionPathway
+name: "ValdecoxibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRetinolMetabolism
+name: "RetinolMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVitaminADeficiency
+name: "VitaminADeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTranscriptionalMisregulationInCancer
+name: "TranscriptionalMisregulationInCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEndocytosis
+name: "Endocytosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaineMetabolism
+name: "BetaineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylcholineBiosynthesis
+name: "PhosphatidylcholineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPancreaticCancer
+name: "PancreaticCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDttpBiosynthesis
+name: "DttpBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlkaptonuria
+name: "Alkaptonuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDopamineBetaHydroxylaseDeficiency
+name: "DopamineBetaHydroxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHawkinsinuria
+name: "Hawkinsinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMonoamineOxidaseADeficiencyMaoA
+name: "MonoamineOxidaseADeficiencyMaoA"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRiboflavinMetabolism
+name: "RiboflavinMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosineMetabolism
+name: "TyrosineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosinemiaTypeI
+name: "TyrosinemiaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosinemiaTransientOfTheNewborn
+name: "TyrosinemiaTransientOfTheNewborn"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDGlycericAcidura
+name: "DGlycericAcidura"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFamilialLipoproteinLipaseDeficiency
+name: "FamilialLipoproteinLipaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructoseAndMannoseDegradation
+name: "FructoseAndMannoseDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructoseAndMannoseMetabolism
+name: "FructoseAndMannoseMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructoseIntoleranceHereditary
+name: "FructoseIntoleranceHereditary"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructosuria
+name: "Fructosuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGalactoseMetabolism
+name: "GalactoseMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGalactosemia
+name: "Galactosemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycerolKinaseDeficiency
+name: "GlycerolKinaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycerolipidMetabolism
+name: "GlycerolipidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPentoseAndGlucuronateInterconversions
+name: "PentoseAndGlucuronateInterconversions"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFolateBiosynthesis
+name: "FolateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayClopidogrelActionPathway
+name: "ClopidogrelActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayClopidogrelMetabolismPathway
+name: "ClopidogrelMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHypophosphatasia
+name: "Hypophosphatasia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVitaminB6Metabolism
+name: "VitaminB6Metabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOsteoclastDifferentiation
+name: "OsteoclastDifferentiation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRheumatoidArthritis
+name: "RheumatoidArthritis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylalanineMetabolism
+name: "PhenylalanineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialFattyAcidBetaOxidation
+name: "MitochondrialFattyAcidBetaOxidation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCtpBiosynthesisViaSalvagePathway
+name: "CtpBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUmpBiosynthesisViaSalvagePathway
+name: "UmpBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdeninePhosphoribosyltransferaseDeficiencyAprt
+name: "AdeninePhosphoribosyltransferaseDeficiencyAprt"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdenosineDeaminaseDeficiency
+name: "AdenosineDeaminaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdenylosuccinateLyaseDeficiency
+name: "AdenylosuccinateLyaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAicaRibosiduria
+name: "AicaRibosiduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAzathioprineActionPathway
+name: "AzathioprineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDnaReplication
+name: "DnaReplication"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutathioneMetabolism
+name: "GlutathioneMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGoutOrKelleySeegmillerSyndrome
+name: "GoutOrKelleySeegmillerSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeschNyhanSyndromeLns
+name: "LeschNyhanSyndromeLns"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMercaptopurineActionPathway
+name: "MercaptopurineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialDnaDepletionSyndrome
+name: "MitochondrialDnaDepletionSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMolybdenumCofactorDeficiency
+name: "MolybdenumCofactorDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMyoadenylateDeaminaseDeficiency
+name: "MyoadenylateDeaminaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPurineNucleosidePhosphorylaseDeficiency
+name: "PurineNucleosidePhosphorylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThioguanineActionPathway
+name: "ThioguanineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayXanthineDehydrogenaseDeficiencyXanthinuria
+name: "XanthineDehydrogenaseDeficiencyXanthinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayXanthinuriaTypeI
+name: "XanthinuriaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayXanthinuriaTypeIi
+name: "XanthinuriaTypeIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdefovirDipivoxilMetabolismPathway
+name: "AdefovirDipivoxilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTenofovirMetabolismPathway
+name: "TenofovirMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayP53SignalingPathway
+name: "P53SignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxidativePhosphorylation
+name: "OxidativePhosphorylation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayParkinsonSDisease
+name: "ParkinsonSDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPantothenateAndCoaBiosynthesis
+name: "PantothenateAndCoaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayStarchAndSucroseMetabolism
+name: "StarchAndSucroseMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlzheimerSDisease
+name: "AlzheimerSDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMitochondrialElectronTransportChain
+name: "MitochondrialElectronTransportChain"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpermineMetabolism
+name: "SpermineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCitalopramActionPathway
+name: "CitalopramActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCitalopramMetabolismPathway
+name: "CitalopramMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDrugMetabolismCytochromeP450
+name: "DrugMetabolismCytochromeP450"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMercaptopurineMetabolismPathway
+name: "MercaptopurineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNicotineActionPathway
+name: "NicotineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNicotineMetabolismPathway
+name: "NicotineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySelenocompoundMetabolism
+name: "SelenocompoundMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPeroxisomalFattyAcidBetaOxidation
+name: "PeroxisomalFattyAcidBetaOxidation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlanineAspartateAndGlutamateMetabolism
+name: "AlanineAspartateAndGlutamateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAspartateMetabolism
+name: "AspartateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCanavanDisease
+name: "CanavanDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHypoacetylaspartia
+name: "Hypoacetylaspartia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMineralAbsorption
+name: "MineralAbsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLanosterolBiosynthesis
+name: "LanosterolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArginineGlycineAmidinotransferaseDeficiencyAgatDeficiency
+name: "ArginineGlycineAmidinotransferaseDeficiencyAgatDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCreatineDeficiencyGuanidinoacetateMethyltransferaseDeficiency
+name: "CreatineDeficiencyGuanidinoacetateMethyltransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGuanidinoacetateMethyltransferaseDeficiencyGamtDeficiency
+name: "GuanidinoacetateMethyltransferaseDeficiencyGamtDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperornithinemiaWithGyrateAtrophyHoga
+name: "HyperornithinemiaWithGyrateAtrophyHoga"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperornithinemiaHyperammonemiaHomocitrullinuriaHhhSyndrome
+name: "HyperornithinemiaHyperammonemiaHomocitrullinuriaHhhSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperprolinemiaTypeI
+name: "HyperprolinemiaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyperprolinemiaTypeIi
+name: "HyperprolinemiaTypeIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLArginineGlycineAmidinotransferaseDeficiency
+name: "LArginineGlycineAmidinotransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLProlineDegradationIntoLGlutamate
+name: "LProlineDegradationIntoLGlutamate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOrnithineAminotransferaseDeficiencyOatDeficiency
+name: "OrnithineAminotransferaseDeficiencyOatDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProlidaseDeficiencyPd
+name: "ProlidaseDeficiencyPd"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProlinemiaTypeIi
+name: "ProlinemiaTypeIi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCystathionineBetaSynthaseDeficiency
+name: "CystathionineBetaSynthaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCysteineAndMethionineMetabolism
+name: "CysteineAndMethionineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycineNMethyltransferaseDeficiency
+name: "GlycineNMethyltransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomocystinuriaMegaloblasticAnemiaDueToDefectInCobalaminMetabolismCblgComplementationType
+name: "HomocystinuriaMegaloblasticAnemiaDueToDefectInCobalaminMetabolismCblgComplementationType"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHypermethioninemia
+name: "Hypermethioninemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLMethionineBiosynthesisViaDeNovoPathway
+name: "LMethionineBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethionineAdenosyltransferaseDeficiency
+name: "MethionineAdenosyltransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethionineMetabolism
+name: "MethionineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethylenetetrahydrofolateReductaseDeficiencyMthfrd
+name: "MethylenetetrahydrofolateReductaseDeficiencyMthfrd"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOneCarbonPoolByFolate
+name: "OneCarbonPoolByFolate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySAdenosylhomocysteineSahHydrolaseDeficiency
+name: "SAdenosylhomocysteineSahHydrolaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySarcosineOncometabolitePathway
+name: "SarcosineOncometabolitePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlcoholism
+name: "Alcoholism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmphetamineAddiction
+name: "AmphetamineAddiction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCocaineAddiction
+name: "CocaineAddiction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDopaminergicSynapse
+name: "DopaminergicSynapse"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHistidineMetabolism
+name: "HistidineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLLeucineDegradation
+name: "LLeucineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHistidinemia
+name: "Histidinemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTamoxifenActionPathway
+name: "TamoxifenActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTamoxifenMetabolismPathway
+name: "TamoxifenMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUmpBiosynthesisViaDeNovoPathway
+name: "UmpBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFolateMalabsorptionHereditary
+name: "FolateMalabsorptionHereditary"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFolateMetabolism
+name: "FolateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethotrexateActionPathway
+name: "MethotrexateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTetrahydrofolateInterconversion
+name: "TetrahydrofolateInterconversion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway5OxoprolinaseDeficiency
+name: "5OxoprolinaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway5Oxoprolinuria
+name: "5Oxoprolinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGammaGlutamylTranspeptidaseDeficiency
+name: "GammaGlutamylTranspeptidaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGammaGlutamyltransferaseDeficiency
+name: "GammaGlutamyltransferaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutathioneSynthetaseDeficiency
+name: "GlutathioneSynthetaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycerolDegradationViaGlycerolKinasePathway
+name: "GlycerolDegradationViaGlycerolKinasePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycerolPhosphateShuttle
+name: "GlycerolPhosphateShuttle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyclophosphamideActionPathway
+name: "CyclophosphamideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyclophosphamideMetabolismPathway
+name: "CyclophosphamideMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIfosfamideActionPathway
+name: "IfosfamideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIfosfamideMetabolismPathway
+name: "IfosfamideMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNevirapineMetabolismPathway
+name: "NevirapineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaineBiosynthesisViaCholinePathway
+name: "BetaineBiosynthesisViaCholinePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaineDegradation
+name: "BetaineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCholesterolMetabolism
+name: "CholesterolMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDArginineAndDOrnithineMetabolism
+name: "DArginineAndDOrnithineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosaminoglycanBiosynthesisKeratanSulfate
+name: "GlycosaminoglycanBiosynthesisKeratanSulfate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosphingolipidBiosynthesisLactoAndNeolactoSeries
+name: "GlycosphingolipidBiosynthesisLactoAndNeolactoSeries"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOtherTypesOfOGlycanBiosynthesis
+name: "OtherTypesOfOGlycanBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinGlycosylation
+name: "ProteinGlycosylation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMelaninBiosynthesis
+name: "MelaninBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayButirosinAndNeomycinBiosynthesis
+name: "ButirosinAndNeomycinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGalactosemiaIiGalk
+name: "GalactosemiaIiGalk"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGalactosemiaIii
+name: "GalactosemiaIii"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenSynthetaseDeficiency
+name: "GlycogenSynthetaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeIiiCoriDiseaseDebrancherGlycogenosis
+name: "GlycogenosisTypeIiiCoriDiseaseDebrancherGlycogenosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeIvAmylopectinosisAndersonDisease
+name: "GlycogenosisTypeIvAmylopectinosisAndersonDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeViHersDisease
+name: "GlycogenosisTypeViHersDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInsulinSecretion
+name: "InsulinSecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMaturityOnsetDiabetesOfTheYoung
+name: "MaturityOnsetDiabetesOfTheYoung"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMucopolysaccharidosisViSlySyndrome
+name: "MucopolysaccharidosisViSlySyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNucleotideSugarsMetabolism
+name: "NucleotideSugarsMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySucraseIsomaltaseDeficiency
+name: "SucraseIsomaltaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrehaloseDegradation
+name: "TrehaloseDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTypeIiDiabetesMellitus
+name: "TypeIiDiabetesMellitus"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarbohydrateDigestionAndAbsorption
+name: "CarbohydrateDigestionAndAbsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHexoseMetabolism
+name: "HexoseMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFanconiBickelSyndrome
+name: "FanconiBickelSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenosisTypeViiTaruiDisease
+name: "GlycogenosisTypeViiTaruiDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycolysis
+name: "Glycolysis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpermidineAndSpermineBiosynthesis
+name: "SpermidineAndSpermineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpermineBiosynthesis
+name: "SpermineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpermidineBiosynthesis
+name: "SpermidineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEif5AHypusination
+name: "Eif5AHypusination"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVitaminDigestionAndAbsorption
+name: "VitaminDigestionAndAbsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcebutololActionPathway
+name: "AcebutololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcrivastineH1AntihistamineAction
+name: "AcrivastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayActivationOfPkcThroughGProteinCoupledReceptor
+name: "ActivationOfPkcThroughGProteinCoupledReceptor"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAfricanTrypanosomiasis
+name: "AfricanTrypanosomiasis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlcaftadineH1AntihistamineAction
+name: "AlcaftadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlimemazineH1AntihistamineAction
+name: "AlimemazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlprenololActionPathway
+name: "AlprenololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmiodaroneActionPathway
+name: "AmiodaroneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmlodipineActionPathway
+name: "AmlodipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmoebiasis
+name: "Amoebiasis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAntazolineH1AntihistamineAction
+name: "AntazolineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArbutamineActionPathway
+name: "ArbutamineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAstemizoleH1AntihistamineAction
+name: "AstemizoleH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAtenololActionPathway
+name: "AtenololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAzatadineH1AntihistamineAction
+name: "AzatadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAzelastineH1AntihistamineAction
+name: "AzelastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBamipineH1AntihistamineAction
+name: "BamipineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBepotastineH1AntihistamineAction
+name: "BepotastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetahistineH1AntihistamineAction
+name: "BetahistineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaxololActionPathway
+name: "BetaxololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBevantololActionPathway
+name: "BevantololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBilastineH1AntihistamineAction
+name: "BilastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBisoprololActionPathway
+name: "BisoprololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBopindololActionPathway
+name: "BopindololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBromodiphenhydramineH1AntihistamineAction
+name: "BromodiphenhydramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBrompheniramineH1AntihistamineAction
+name: "BrompheniramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBuclizineH1AntihistamineAction
+name: "BuclizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBupranololActionPathway
+name: "BupranololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCalciumSignalingPathway
+name: "CalciumSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarbinoxamineH1AntihistamineAction
+name: "CarbinoxamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarteololActionPathway
+name: "CarteololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarvedilolActionPathway
+name: "CarvedilolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCetirizineH1AntihistamineAction
+name: "CetirizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChagasDiseaseAmericanTrypanosomiasis
+name: "ChagasDiseaseAmericanTrypanosomiasis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChemokineSignalingPathway
+name: "ChemokineSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChlorcyclizineH1AntihistamineAction
+name: "ChlorcyclizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChloropyramineH1AntihistamineAction
+name: "ChloropyramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChlorphenamineH1AntihistamineAction
+name: "ChlorphenamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChlorphenoxamineH1AntihistamineAction
+name: "ChlorphenoxamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCinnarizineH1AntihistamineAction
+name: "CinnarizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCircadianEntrainment
+name: "CircadianEntrainment"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayClemastineH1AntihistamineAction
+name: "ClemastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayClocinizineH1AntihistamineAction
+name: "ClocinizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyclizineH1AntihistamineAction
+name: "CyclizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyproheptadineH1AntihistamineAction
+name: "CyproheptadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDeptropineH1AntihistamineAction
+name: "DeptropineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDesloratadineH1AntihistamineAction
+name: "DesloratadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDexbrompheniramineH1AntihistamineAction
+name: "DexbrompheniramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDexchlorpheniramineH1AntihistamineAction
+name: "DexchlorpheniramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiltiazemActionPathway
+name: "DiltiazemActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDimetindeneH1AntihistamineAction
+name: "DimetindeneH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiphenhydramineH1AntihistamineAction
+name: "DiphenhydramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiphenylpyralineH1AntihistamineAction
+name: "DiphenylpyralineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDisopyramideActionPathway
+name: "DisopyramideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDobutamineActionPathway
+name: "DobutamineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDoxepinH1AntihistamineAction
+name: "DoxepinH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDoxylamineH1AntihistamineAction
+name: "DoxylamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEbastineH1AntihistamineAction
+name: "EbastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEmbramineH1AntihistamineAction
+name: "EmbramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEmedastineH1AntihistamineAction
+name: "EmedastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEndocrineAndOtherFactorRegulatedCalciumReabsorption
+name: "EndocrineAndOtherFactorRegulatedCalciumReabsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEpinastineH1AntihistamineAction
+name: "EpinastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEpinephrineActionPathway
+name: "EpinephrineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEsmololActionPathway
+name: "EsmololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFelodipineActionPathway
+name: "FelodipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFenethazineH1AntihistamineAction
+name: "FenethazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFexofenadineH1AntihistamineAction
+name: "FexofenadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFlecainideActionPathway
+name: "FlecainideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFlunarizineH1AntihistamineAction
+name: "FlunarizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFosphenytoinAntiarrhythmicActionPathway
+name: "FosphenytoinAntiarrhythmicActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGapJunction
+name: "GapJunction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGastricAcidSecretion
+name: "GastricAcidSecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHistamineH1ReceptorActivation
+name: "HistamineH1ReceptorActivation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHistapyrrodineH1AntihistamineAction
+name: "HistapyrrodineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomochlorcyclizineH1AntihistamineAction
+name: "HomochlorcyclizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydroxyethylpromethazineH1AntihistamineAction
+name: "HydroxyethylpromethazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydroxyzineH1AntihistamineAction
+name: "HydroxyzineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIbutilideActionPathway
+name: "IbutilideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsoprenalineActionPathway
+name: "IsoprenalineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsothipendylH1AntihistamineAction
+name: "IsothipendylH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsradipineActionPathway
+name: "IsradipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayJoubertSyndrome
+name: "JoubertSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKetotifenH1AntihistamineAction
+name: "KetotifenH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLabetalolActionPathway
+name: "LabetalolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLatrepirdineH1AntihistamineAction
+name: "LatrepirdineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevobunololActionPathway
+name: "LevobunololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevocabastineH1AntihistamineAction
+name: "LevocabastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevocetirizineH1AntihistamineAction
+name: "LevocetirizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLidocaineAntiarrhythmicActionPathway
+name: "LidocaineAntiarrhythmicActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLoratadineH1AntihistamineAction
+name: "LoratadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMebhydrolinH1AntihistamineAction
+name: "MebhydrolinH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMeclizineH1AntihistamineAction
+name: "MeclizineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMepyramineH1AntihistamineAction
+name: "MepyramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMequitazineH1AntihistamineAction
+name: "MequitazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethapyrileneH1AntihistamineAction
+name: "MethapyrileneH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethdilazineH1AntihistamineAction
+name: "MethdilazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetipranololActionPathway
+name: "MetipranololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetoprololActionPathway
+name: "MetoprololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMexiletineActionPathway
+name: "MexiletineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMirtazapineH1AntihistamineAction
+name: "MirtazapineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMizolastineH1AntihistamineAction
+name: "MizolastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMuscleHeartContraction
+name: "MuscleHeartContraction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNadololActionPathway
+name: "NadololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNebivololActionPathway
+name: "NebivololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNifedipineActionPathway
+name: "NifedipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNimodipineActionPathway
+name: "NimodipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNisoldipineActionPathway
+name: "NisoldipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNitrendipineActionPathway
+name: "NitrendipineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOlopatadineH1AntihistamineAction
+name: "OlopatadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOrphenadrineH1AntihistamineAction
+name: "OrphenadrineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxatomideH1AntihistamineAction
+name: "OxatomideH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxomemazineH1AntihistamineAction
+name: "OxomemazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxprenololActionPathway
+name: "OxprenololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPenbutololActionPathway
+name: "PenbutololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenbenzamineH1AntihistamineAction
+name: "PhenbenzamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenindamineH1AntihistamineAction
+name: "PhenindamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPheniramineH1AntihistamineAction
+name: "PheniramineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenyltoloxamineH1AntihistamineAction
+name: "PhenyltoloxamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenytoinAntiarrhythmicActionPathway
+name: "PhenytoinAntiarrhythmicActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylinositolPhosphateMetabolism
+name: "PhosphatidylinositolPhosphateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylinositolSignalingSystem
+name: "PhosphatidylinositolSignalingSystem"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPimethixeneH1AntihistamineAction
+name: "PimethixeneH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPindololActionPathway
+name: "PindololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPractololActionPathway
+name: "PractololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProcainamideAntiarrhythmicActionPathway
+name: "ProcainamideAntiarrhythmicActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPromethazineH1AntihistamineAction
+name: "PromethazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropiomazineH1AntihistamineAction
+name: "PropiomazineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropranololActionPathway
+name: "PropranololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyrrobutamineH1AntihistamineAction
+name: "PyrrobutamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuetiapineH1AntihistamineAction
+name: "QuetiapineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuifenadineH1AntihistamineAction
+name: "QuifenadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuinidineActionPathway
+name: "QuinidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRetrogradeEndocannabinoidSignaling
+name: "RetrogradeEndocannabinoidSignaling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRupatadineH1AntihistamineAction
+name: "RupatadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySalivarySecretion
+name: "SalivarySecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySotalolActionPathway
+name: "SotalolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTalastineH1AntihistamineAction
+name: "TalastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTemelastineH1AntihistamineAction
+name: "TemelastineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTerfenadineH1AntihistamineAction
+name: "TerfenadineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThenalidineH1AntihistamineAction
+name: "ThenalidineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThenyldiamineH1AntihistamineAction
+name: "ThenyldiamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThiazinamiumH1AntihistamineAction
+name: "ThiazinamiumH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThonzylamineH1AntihistamineAction
+name: "ThonzylamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTimololActionPathway
+name: "TimololActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTocainideActionPathway
+name: "TocainideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTolpropamineH1AntihistamineAction
+name: "TolpropamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTripelennamineH1AntihistamineAction
+name: "TripelennamineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTriprolidineH1AntihistamineAction
+name: "TriprolidineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTritoqualineH1AntihistamineAction
+name: "TritoqualineH1AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVerapamilActionPathway
+name: "VerapamilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTasteTransduction
+name: "TasteTransduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBCellReceptorSignalingPathway
+name: "BCellReceptorSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEpithelialCellSignalingInHelicobacterPyloriInfection
+name: "EpithelialCellSignalingInHelicobacterPyloriInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayErbbSignalingPathway
+name: "ErbbSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlioma
+name: "Glioma"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukocyteTransendothelialMigration
+name: "LeukocyteTransendothelialMigration"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNaturalKillerCellMediatedCytotoxicity
+name: "NaturalKillerCellMediatedCytotoxicity"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNeurotrophinSignalingPathway
+name: "NeurotrophinSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNfKappaBSignalingPathway
+name: "NfKappaBSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNonSmallCellLungCancer
+name: "NonSmallCellLungCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteoglycansInCancer
+name: "ProteoglycansInCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVibrioCholeraeInfection
+name: "VibrioCholeraeInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySphingolipidMetabolism
+name: "SphingolipidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTriacylglycerolDegradation
+name: "TriacylglycerolDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFabryDisease
+name: "FabryDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGaucherDisease
+name: "GaucherDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGloboidCellLeukodystrophy
+name: "GloboidCellLeukodystrophy"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKrabbeDisease
+name: "KrabbeDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetachromaticLeukodystrophyMld
+name: "MetachromaticLeukodystrophyMld"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPlasmalogenSynthesis
+name: "PlasmalogenSynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDeNovoTriacylglycerolBiosynthesis
+name: "DeNovoTriacylglycerolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTCellReceptorSignalingPathway
+name: "TCellReceptorSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGabaergicSynapse
+name: "GabaergicSynapse"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway4AminobutanoateDegradation
+name: "4AminobutanoateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRNoradrenalineBiosynthesis
+name: "RNoradrenalineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAromaticLAminoacidDecarboxylaseDeficiency
+name: "AromaticLAminoacidDecarboxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCatecholamineBiosynthesis
+name: "CatecholamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosineHydroxylaseDeficiency
+name: "TyrosineHydroxylaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropanoylCoaDegradation
+name: "PropanoylCoaDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuinolateMetabolism
+name: "QuinolateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayZymosterolBiosynthesis
+name: "ZymosterolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhytanicAcidPeroxisomalOxidation
+name: "PhytanicAcidPeroxisomalOxidation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRefsumDisease
+name: "RefsumDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosphingolipidBiosynthesisGanglioSeries
+name: "GlycosphingolipidBiosynthesisGanglioSeries"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosphingolipidBiosynthesisGloboSeries
+name: "GlycosphingolipidBiosynthesisGloboSeries"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEstroneMetabolism
+name: "EstroneMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDopamineBiosynthesis
+name: "DopamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAminoacylTrnaBiosynthesis
+name: "AminoacylTrnaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylalanineAndTyrosineMetabolism
+name: "PhenylalanineAndTyrosineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylketonuria
+name: "Phenylketonuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosinemiaType2OrRichnerHanhartSyndrome
+name: "TyrosinemiaType2OrRichnerHanhartSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTyrosinemiaType3Tyro3
+name: "TyrosinemiaType3Tyro3"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAutoimmuneThyroidDisease
+name: "AutoimmuneThyroidDisease"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCytokineCytokineReceptorInteraction
+name: "CytokineCytokineReceptorInteraction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHematopoieticCellLineage
+name: "HematopoieticCellLineage"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThyroidHormoneBiosynthesis
+name: "ThyroidHormoneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThyroidHormoneSynthesis
+name: "ThyroidHormoneSynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLPhenylalanineDegradation
+name: "LPhenylalanineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylalanineTyrosineAndTryptophanBiosynthesis
+name: "PhenylalanineTyrosineAndTryptophanBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUbiquinoneAndOtherTerpenoidQuinoneBiosynthesis
+name: "UbiquinoneAndOtherTerpenoidQuinoneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEtoposideActionPathway
+name: "EtoposideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEtoposideMetabolismPathway
+name: "EtoposideMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhagosome
+name: "Phagosome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTeniposideActionPathway
+name: "TeniposideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTeniposideMetabolismPathway
+name: "TeniposideMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaMercaptolactateCysteineDisulfiduria
+name: "BetaMercaptolactateCysteineDisulfiduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCysteineMetabolism
+name: "CysteineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCystinosisOcularNonnephropathic
+name: "CystinosisOcularNonnephropathic"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArgininemia
+name: "Argininemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArgininosuccinicAciduria
+name: "ArgininosuccinicAciduria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarbamoylPhosphateSynthetaseDeficiency
+name: "CarbamoylPhosphateSynthetaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCitrullinemiaTypeI
+name: "CitrullinemiaTypeI"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMalateAspartateShuttle
+name: "MalateAspartateShuttle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOrnithineTranscarbamylaseDeficiencyOtcDeficiency
+name: "OrnithineTranscarbamylaseDeficiencyOtcDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUreaCycle
+name: "UreaCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAsthma
+name: "Asthma"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosaminoglycanBiosynthesisChondroitinSulfateDermatanSulfate
+name: "GlycosaminoglycanBiosynthesisChondroitinSulfateDermatanSulfate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulfateSulfiteMetabolism
+name: "SulfateSulfiteMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulfiteOxidaseDeficiency
+name: "SulfiteOxidaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulfurMetabolism
+name: "SulfurMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAscorbateAndAldarateMetabolism
+name: "AscorbateAndAldarateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnitineBiosynthesis
+name: "CarnitineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarnitineSynthesis
+name: "CarnitineSynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFelbamateMetabolismPathway
+name: "FelbamateMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysineBiosynthesis
+name: "LysineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayValineLeucineAndIsoleucineBiosynthesis
+name: "ValineLeucineAndIsoleucineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLProlineBiosynthesis
+name: "LProlineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOtherGlycanDegradation
+name: "OtherGlycanDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosaminoglycanDegradation
+name: "GlycosaminoglycanDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLKynurenineDegradation
+name: "LKynurenineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNadBiosynthesis
+name: "NadBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlucose6PhosphateDehydrogenaseDeficiency
+name: "Glucose6PhosphateDehydrogenaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPentosePhosphatePathway
+name: "PentosePhosphatePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRibose5PhosphateIsomeraseDeficiency
+name: "Ribose5PhosphateIsomeraseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTransaldolaseDeficiency
+name: "TransaldolaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayImpBiosynthesisViaDeNovoPathway
+name: "ImpBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNAcetylneuraminateBiosynthesis
+name: "NAcetylneuraminateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNAcetylneuraminateDegradation
+name: "NAcetylneuraminateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosaminoglycanBiosynthesisHeparanSulfateHeparin
+name: "GlycosaminoglycanBiosynthesisHeparanSulfateHeparin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcetaminophenMetabolismPathway
+name: "AcetaminophenMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySelenoaminoAcidMetabolism
+name: "SelenoaminoAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulfateAssimilation
+name: "SulfateAssimilation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway17BetaHydroxysteroidDehydrogenaseIiiDeficiency
+name: "17BetaHydroxysteroidDehydrogenaseIiiDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAndrogenAndEstrogenMetabolism
+name: "AndrogenAndEstrogenMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAromataseDeficiency
+name: "AromataseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBileSecretion
+name: "BileSecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInositolMetabolism
+name: "InositolMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylinositolSignalingPathway
+name: "PhosphatidylinositolSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLactoseDegradation
+name: "LactoseDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLactoseIntolerance
+name: "LactoseIntolerance"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvaldehydeDegradation
+name: "PyruvaldehydeDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNGlycanBiosynthesis
+name: "NGlycanBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNGlycanMetabolism
+name: "NGlycanMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinProcessingInEndoplasmicReticulum
+name: "ProteinProcessingInEndoplasmicReticulum"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPi3KAktSignalingPathway
+name: "Pi3KAktSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLLysineDegradationViaSaccharopinePathway
+name: "LLysineDegradationViaSaccharopinePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGdpLFucoseBiosynthesisViaDeNovoPathway
+name: "GdpLFucoseBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethylglyoxalDegradation
+name: "MethylglyoxalDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLMethionineBiosynthesisViaSalvagePathway
+name: "LMethionineBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNAcetylneuraminateMetabolism
+name: "NAcetylneuraminateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySAdenosylLMethionineBiosynthesis
+name: "SAdenosylLMethionineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRAdrenalineBiosynthesis
+name: "RAdrenalineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPeptidylDiphthamideBiosynthesis
+name: "PeptidylDiphthamideBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUbiquinoneBiosynthesis
+name: "UbiquinoneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySAdenosylmethioninamineBiosynthesis
+name: "SAdenosylmethioninamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCreatineBiosynthesis
+name: "CreatineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDumpBiosynthesis
+name: "DumpBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTetrahydrobiopterinBiosynthesis
+name: "TetrahydrobiopterinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLTryptophanDegradationViaKynureninePathway
+name: "LTryptophanDegradationViaKynureninePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmpBiosynthesisViaSalvagePathway
+name: "AmpBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDocetaxelActionPathway
+name: "DocetaxelActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMycophenolicAcidMetabolismPathway
+name: "MycophenolicAcidMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPaclitaxelActionPathway
+name: "PaclitaxelActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayReninAngiotensinSystem
+name: "ReninAngiotensinSystem"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEstrogenBiosynthesis
+name: "EstrogenBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIrinotecanActionPathway
+name: "IrinotecanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIrinotecanMetabolismPathway
+name: "IrinotecanMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRosiglitazoneMetabolismPathway
+name: "RosiglitazoneMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIbuprofenMetabolismPathway
+name: "IbuprofenMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMorphineActionPathway
+name: "MorphineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMorphineMetabolismPathway
+name: "MorphineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySerotoninBiosynthesis
+name: "SerotoninBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayImpBiosynthesisViaSalvagePathway
+name: "ImpBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThioguanineMetabolismPathway
+name: "ThioguanineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArtemetherMetabolismPathway
+name: "ArtemetherMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCodeineActionPathway
+name: "CodeineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCodeineMetabolismPathway
+name: "CodeineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTramadolMetabolismPathway
+name: "TramadolMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySorafenibMetabolismPathway
+name: "SorafenibMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCelecoxibMetabolismPathway
+name: "CelecoxibMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCapecitabineActionPathway
+name: "CapecitabineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCapecitabineMetabolismPathway
+name: "CapecitabineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHeroinActionPathway
+name: "HeroinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHeroinMetabolismPathway
+name: "HeroinMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBiotinMetabolism
+name: "BiotinMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBiotinidaseDeficiency
+name: "BiotinidaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMultipleCarboxylaseDeficiencyNeonatalOrEarlyOnsetForm
+name: "MultipleCarboxylaseDeficiencyNeonatalOrEarlyOnsetForm"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlutathioneBiosynthesis
+name: "GlutathioneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLArginineBiosynthesis
+name: "LArginineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGammaCystathionaseDeficiencyCth
+name: "GammaCystathionaseDeficiencyCth"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomocysteineDegradation
+name: "HomocysteineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomocystinuriaCystathionineBetaSynthaseDeficiency
+name: "HomocystinuriaCystathionineBetaSynthaseDeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLCysteineBiosynthesis
+name: "LCysteineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetaAlanineBiosynthesis
+name: "BetaAlanineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCholesterolBiosynthesis
+name: "CholesterolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTaurineAndHypotaurineMetabolism
+name: "TaurineAndHypotaurineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosylphosphatidylinositolGpiAnchorBiosynthesis
+name: "GlycosylphosphatidylinositolGpiAnchorBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycosylphosphatidylinositolAnchorBiosynthesis
+name: "GlycosylphosphatidylinositolAnchorBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinUbiquitination
+name: "ProteinUbiquitination"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUbiquitinMediatedProteolysis
+name: "UbiquitinMediatedProteolysis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinNeddylation
+name: "ProteinNeddylation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway5PhosphoAlphaDRibose1DiphosphateBiosynthesis
+name: "5PhosphoAlphaDRibose1DiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMorphineAddiction
+name: "MorphineAddiction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway35CyclicAmpDegradation
+name: "35CyclicAmpDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProgesteroneMediatedOocyteMaturation
+name: "ProgesteroneMediatedOocyteMaturation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLAsparagineBiosynthesis
+name: "LAsparagineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmpBiosynthesisViaDeNovoPathway
+name: "AmpBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayShigellosis
+name: "Shigellosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNonHomologousEndJoining
+name: "NonHomologousEndJoining"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGmpBiosynthesis
+name: "GmpBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway35CyclicGmpDegradation
+name: "35CyclicGmpDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOlfactoryTransduction
+name: "OlfactoryTransduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBaseExcisionRepair
+name: "BaseExcisionRepair"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySmallCellLungCancer
+name: "SmallCellLungCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhototransduction
+name: "Phototransduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySelenocysteinylTrnaSecBiosynthesis
+name: "SelenocysteinylTrnaSecBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThiamineDiphosphateBiosynthesis
+name: "ThiamineDiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayThiamineMetabolism
+name: "ThiamineMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinSumoylation
+name: "ProteinSumoylation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRnaTransport
+name: "RnaTransport"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCilostazolActionPathway
+name: "CilostazolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDipyridamoleAntiplateletActionPathway
+name: "DipyridamoleAntiplateletActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMismatchRepair
+name: "MismatchRepair"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNucleotideExcisionRepair
+name: "NucleotideExcisionRepair"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLHomocysteineBiosynthesis
+name: "LHomocysteineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrimaryImmunodeficiency
+name: "PrimaryImmunodeficiency"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDGlutamineAndDGlutamateMetabolism
+name: "DGlutamineAndDGlutamateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProximalTubuleBicarbonateReclamation
+name: "ProximalTubuleBicarbonateReclamation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAcenocoumarolActionPathway
+name: "AcenocoumarolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlteplaseActionPathway
+name: "AlteplaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAminocaproicAcidActionPathway
+name: "AminocaproicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAnistreplaseActionPathway
+name: "AnistreplaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAprotininActionPathway
+name: "AprotininActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArdeparinActionPathway
+name: "ArdeparinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArgatrobanActionPathway
+name: "ArgatrobanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBivalirudinActionPathway
+name: "BivalirudinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCoagulation
+name: "Coagulation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayComplementAndCoagulationCascades
+name: "ComplementAndCoagulationCascades"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDicoumarolActionPathway
+name: "DicoumarolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDicumarolActionPathway
+name: "DicumarolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEnoxaparinActionPathway
+name: "EnoxaparinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFondaparinuxActionPathway
+name: "FondaparinuxActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHeparinActionPathway
+name: "HeparinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLepirudinActionPathway
+name: "LepirudinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenindioneActionPathway
+name: "PhenindioneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenprocoumonActionPathway
+name: "PhenprocoumonActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayReteplaseActionPathway
+name: "ReteplaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayStreptokinaseActionPathway
+name: "StreptokinaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTenecteplaseActionPathway
+name: "TenecteplaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTranexamicAcidActionPathway
+name: "TranexamicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUrokinaseActionPathway
+name: "UrokinaseActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayWarfarinActionPathway
+name: "WarfarinActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayXimelagatranActionPathway
+name: "XimelagatranActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayB6VitamerInterconversion
+name: "B6VitamerInterconversion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCtpBiosynthesisViaDeNovoPathway
+name: "CtpBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLHistidineDegradationIntoLGlutamate
+name: "LHistidineDegradationIntoLGlutamate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGuanineDegradation
+name: "GuanineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlucoseAlanineCycle
+name: "GlucoseAlanineCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProtohemeDegradation
+name: "ProtohemeDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTypeIDiabetesMellitus
+name: "TypeIDiabetesMellitus"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDilatedCardiomyopathy
+name: "DilatedCardiomyopathy"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOocyteMeiosis
+name: "OocyteMeiosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVasopressinRegulatedWaterReabsorption
+name: "VasopressinRegulatedWaterReabsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySuccinylCoaDegradation
+name: "SuccinylCoaDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAldosteroneRegulatedSodiumReabsorption
+name: "AldosteroneRegulatedSodiumReabsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayC21SteroidHormoneMetabolism
+name: "C21SteroidHormoneMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyanoaminoAcidMetabolism
+name: "CyanoaminoAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCytosolicDnaSensingPathway
+name: "CytosolicDnaSensingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRnaPolymerase
+name: "RnaPolymerase"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylethanolamineBiosynthesis
+name: "PhosphatidylethanolamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCardiolipinBiosynthesis
+name: "CardiolipinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCdpDiacylglycerolBiosynthesis
+name: "CdpDiacylglycerolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySulfurRelaySystem
+name: "SulfurRelaySystem"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycolateDegradation
+name: "GlycolateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTetrahydrofolateBiosynthesis
+name: "TetrahydrofolateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySarcosineDegradation
+name: "SarcosineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGdpAlphaDMannoseBiosynthesis
+name: "GdpAlphaDMannoseBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmyotrophicLateralSclerosisAls
+name: "AmyotrophicLateralSclerosisAls"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMyoInositolDegradationIntoDGlucuronate
+name: "MyoInositolDegradationIntoDGlucuronate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrnaQueuosineBiosynthesis
+name: "TrnaQueuosineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTestosteroneBiosynthesis
+name: "TestosteroneBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTetrahydrofolylpolyglutamateBiosynthesis
+name: "TetrahydrofolylpolyglutamateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLAlanineDegradationViaTransaminasePathway
+name: "LAlanineDegradationViaTransaminasePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLSerineBiosynthesis
+name: "LSerineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyridoxine5PhosphateBiosynthesis
+name: "Pyridoxine5PhosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMyoInositolBiosynthesis
+name: "MyoInositolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayXmpBiosynthesisViaDeNovoPathway
+name: "XmpBiosynthesisViaDeNovoPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHistamineBiosynthesis
+name: "HistamineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPyruvateFermentationToLactate
+name: "PyruvateFermentationToLactate"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUdpAlphaDGlucuronateBiosynthesis
+name: "UdpAlphaDGlucuronateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCorticotropinActivationOfCortisolProduction
+name: "CorticotropinActivationOfCortisolProduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDopamineActivationOfNeurologicalRewardSystem
+name: "DopamineActivationOfNeurologicalRewardSystem"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayExcitatoryNeuralSignallingThrough5Htr4AndSerotonin
+name: "ExcitatoryNeuralSignallingThrough5Htr4AndSerotonin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayExcitatoryNeuralSignallingThrough5Htr6AndSerotonin
+name: "ExcitatoryNeuralSignallingThrough5Htr6AndSerotonin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayExcitatoryNeuralSignallingThrough5Htr7AndSerotonin
+name: "ExcitatoryNeuralSignallingThrough5Htr7AndSerotonin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughAdenosineReceptorA2AAndAdenosine
+name: "IntracellularSignallingThroughAdenosineReceptorA2AAndAdenosine"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughAdenosineReceptorA2BAndAdenosine
+name: "IntracellularSignallingThroughAdenosineReceptorA2BAndAdenosine"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughFshReceptorAndFollicleStimulatingHormone
+name: "IntracellularSignallingThroughFshReceptorAndFollicleStimulatingHormone"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughHistamineH2ReceptorAndHistamine
+name: "IntracellularSignallingThroughHistamineH2ReceptorAndHistamine"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughLhcgrReceptorAndLuteinizingHormoneChoriogonadotropin
+name: "IntracellularSignallingThroughLhcgrReceptorAndLuteinizingHormoneChoriogonadotropin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughPgd2ReceptorAndProstaglandinD2
+name: "IntracellularSignallingThroughPgd2ReceptorAndProstaglandinD2"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntracellularSignallingThroughProstacyclinReceptorAndProstacyclin
+name: "IntracellularSignallingThroughProstacyclinReceptorAndProstacyclin"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVasopressinRegulationOfWaterHomeostasis
+name: "VasopressinRegulationOfWaterHomeostasis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeishmaniasis
+name: "Leishmaniasis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPertussis
+name: "Pertussis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySalmonellaInfection
+name: "SalmonellaInfection"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayToxoplasmosis
+name: "Toxoplasmosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFarnesylDiphosphateBiosynthesis
+name: "FarnesylDiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGeranylDiphosphateBiosynthesis
+name: "GeranylDiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGeranylgeranylDiphosphateBiosynthesis
+name: "GeranylgeranylDiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTaurineBiosynthesis
+name: "TaurineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway78DihydroneopterinTriphosphateBiosynthesis
+name: "78DihydroneopterinTriphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway2DeoxyDRibose1PhosphateDegradation
+name: "2DeoxyDRibose1PhosphateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFanconiAnemiaPathway
+name: "FanconiAnemiaPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHomologousRecombination
+name: "HomologousRecombination"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukotrieneA4Biosynthesis
+name: "LeukotrieneA4Biosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukotrieneD4Biosynthesis
+name: "LeukotrieneD4Biosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProstaglandinBiosynthesis
+name: "ProstaglandinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCardiacMuscleContraction
+name: "CardiacMuscleContraction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMucinTypeOGlycanBiosynthesis
+name: "MucinTypeOGlycanBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAdenosylcobalaminBiosynthesis
+name: "AdenosylcobalaminBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukotrieneB4Degradation
+name: "LeukotrieneB4Degradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeukotrieneB4Biosynthesis
+name: "LeukotrieneB4Biosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIsopentenylDiphosphateBiosynthesisViaMevalonatePathway
+name: "IsopentenylDiphosphateBiosynthesisViaMevalonatePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarbamazepineMetabolismPathway
+name: "CarbamazepineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayClomipramineMetabolismPathway
+name: "ClomipramineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDoxepinMetabolismPathway
+name: "DoxepinMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFluoxetineActionPathway
+name: "FluoxetineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFluoxetineMetabolismPathway
+name: "FluoxetineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayImipramineActionPathway
+name: "ImipramineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayImipramineMetabolismPathway
+name: "ImipramineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLidocaineLocalAnaestheticActionPathway
+name: "LidocaineLocalAnaestheticActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLidocaineLocalAnaestheticMetabolismPathway
+name: "LidocaineLocalAnaestheticMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethadoneActionPathway
+name: "MethadoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethadoneMetabolismPathway
+name: "MethadoneMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrednisoneActionPathway
+name: "PrednisoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrednisoneMetabolismPathway
+name: "PrednisoneMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVenlafaxineMetabolismPathway
+name: "VenlafaxineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVinblastineActionPathway
+name: "VinblastineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVinorelbineActionPathway
+name: "VinorelbineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCoenzymeABiosynthesis
+name: "CoenzymeABiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPutrescineBiosynthesisViaLOrnithinePathway
+name: "PutrescineBiosynthesisViaLOrnithinePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCholecalciferolBiosynthesis
+name: "CholecalciferolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProtohemeBiosynthesis
+name: "ProtohemeBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFmnBiosynthesis
+name: "FmnBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMrnaSurveillancePathway
+name: "MrnaSurveillancePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRnaDegradation
+name: "RnaDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDRiboseDegradation
+name: "DRiboseDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlycogenBiosynthesis
+name: "GlycogenBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGalactosylceramideBiosynthesis
+name: "GalactosylceramideBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayInsulinSignalling
+name: "InsulinSignalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVitaminKMetabolism
+name: "VitaminKMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBafetinibInhibitionOfBcrAbl
+name: "BafetinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBcrAblActionInCmlPathogenesis
+name: "BcrAblActionInCmlPathogenesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBosutinibInhibitionOfBcrAbl
+name: "BosutinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDasatinibInhibitionOfBcrAbl
+name: "DasatinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayImatinibInhibitionOfBcrAbl
+name: "ImatinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNilotinibInhibitionOfBcrAbl
+name: "NilotinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPonatinibInhibitionOfBcrAbl
+name: "PonatinibInhibitionOfBcrAbl"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway3MethylthiofentanylActionPathway
+name: "3MethylthiofentanylActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlfentanilActionPathway
+name: "AlfentanilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlvimopanActionPathway
+name: "AlvimopanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAmilorideActionPathway
+name: "AmilorideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAnileridineActionPathway
+name: "AnileridineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBendroflumethiazideActionPathway
+name: "BendroflumethiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBenzocaineActionPathway
+name: "BenzocaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBlueDiaperSyndrome
+name: "BlueDiaperSyndrome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBumetanideActionPathway
+name: "BumetanideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBupivacaineActionPathway
+name: "BupivacaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBuprenorphineActionPathway
+name: "BuprenorphineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCarfentanilActionPathway
+name: "CarfentanilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChloroprocaineActionPathway
+name: "ChloroprocaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChlorothiazideActionPathway
+name: "ChlorothiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChlorthalidoneActionPathway
+name: "ChlorthalidoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCocaineActionPathway
+name: "CocaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCyclothiazideActionPathway
+name: "CyclothiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCystinuria
+name: "Cystinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDesipramineActionPathway
+name: "DesipramineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDezocineActionPathway
+name: "DezocineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDibucaineActionPathway
+name: "DibucaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDihydromorphineActionPathway
+name: "DihydromorphineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDimethylthiambuteneActionPathway
+name: "DimethylthiambuteneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDiphenoxylateActionPathway
+name: "DiphenoxylateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEplerenoneActionPathway
+name: "EplerenoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEscitalopramActionPathway
+name: "EscitalopramActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEthacrynicAcidActionPathway
+name: "EthacrynicAcidActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEthylmorphineActionPathway
+name: "EthylmorphineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFentanylActionPathway
+name: "FentanylActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFurosemideActionPathway
+name: "FurosemideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlucoseTransporterDefectSglt2
+name: "GlucoseTransporterDefectSglt2"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHartnupDisorder
+name: "HartnupDisorder"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydrochlorothiazideActionPathway
+name: "HydrochlorothiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydrocodoneActionPathway
+name: "HydrocodoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydroflumethiazideActionPathway
+name: "HydroflumethiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHydromorphoneActionPathway
+name: "HydromorphoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIminoglycinuria
+name: "Iminoglycinuria"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIndapamideActionPathway
+name: "IndapamideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKetobemidoneActionPathway
+name: "KetobemidoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayKidneyFunction
+name: "KidneyFunction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevallorphanActionPathway
+name: "LevallorphanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevobupivacaineActionPathway
+name: "LevobupivacaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevomethadylAcetateActionActionPathway
+name: "LevomethadylAcetateActionActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevorphanolActionPathway
+name: "LevorphanolActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysinuricProteinIntolerance
+name: "LysinuricProteinIntolerance"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysinuricProteinIntoleranceLpi
+name: "LysinuricProteinIntoleranceLpi"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMepivacaineActionPathway
+name: "MepivacaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethadylAcetateActionPathway
+name: "MethadylAcetateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMethyclothiazideActionPathway
+name: "MethyclothiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetolazoneActionPathway
+name: "MetolazoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNalbuphineActionPathway
+name: "NalbuphineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNaloxoneActionPathway
+name: "NaloxoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNaltrexoneActionPathway
+name: "NaltrexoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxybuprocaineActionPathway
+name: "OxybuprocaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxycodoneActionPathway
+name: "OxycodoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOxymorphoneActionPathway
+name: "OxymorphoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPentazocineActionPathway
+name: "PentazocineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPolythiazideActionPathway
+name: "PolythiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrilocaineActionPathway
+name: "PrilocaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProcaineActionPathway
+name: "ProcaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProparacaineActionPathway
+name: "ProparacaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPropoxypheneActionPathway
+name: "PropoxypheneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuinethazoneActionPathway
+name: "QuinethazoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRemifentanilActionPathway
+name: "RemifentanilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRopivacaineActionPathway
+name: "RopivacaineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpironolactoneActionPathway
+name: "SpironolactoneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySufentanilActionPathway
+name: "SufentanilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTorsemideActionPathway
+name: "TorsemideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTramadolActionActionPathway
+name: "TramadolActionActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTriamtereneActionPathway
+name: "TriamtereneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrichlormethiazideActionPathway
+name: "TrichlormethiazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFructoseMetabolism
+name: "FructoseMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBevacizumabActionPathway
+name: "BevacizumabActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVatalanibActionPathway
+name: "VatalanibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCollectingDuctAcidSecretion
+name: "CollectingDuctAcidSecretion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySynapticVesicleCycle
+name: "SynapticVesicleCycle"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLeucineStimulationOnInsulinSignaling
+name: "LeucineStimulationOnInsulinSignaling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa1Signalling
+name: "LysophosphatidicAcidLpa1Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa2Signalling
+name: "LysophosphatidicAcidLpa2Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa3Signalling
+name: "LysophosphatidicAcidLpa3Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa4Signalling
+name: "LysophosphatidicAcidLpa4Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa5Signalling
+name: "LysophosphatidicAcidLpa5Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLysophosphatidicAcidLpa6Signalling
+name: "LysophosphatidicAcidLpa6Signalling"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinDigestionAndAbsorption
+name: "ProteinDigestionAndAbsorption"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBetazoleActionPathway
+name: "BetazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCimetidineActionPathway
+name: "CimetidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEsomeprazoleActionPathway
+name: "EsomeprazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEsomeprazoleMetabolismPathway
+name: "EsomeprazoleMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFamotidineActionPathway
+name: "FamotidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGastricAcidProduction
+name: "GastricAcidProduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLafutidineH2AntihistamineAction
+name: "LafutidineH2AntihistamineAction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLansoprazoleActionPathway
+name: "LansoprazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLansoprazoleMetabolismPathway
+name: "LansoprazoleMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMetiamideActionPathway
+name: "MetiamideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNizatidineActionPathway
+name: "NizatidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOmeprazoleActionPathway
+name: "OmeprazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOmeprazoleMetabolismPathway
+name: "OmeprazoleMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPantoprazoleActionPathway
+name: "PantoprazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPantoprazoleMetabolismPathway
+name: "PantoprazoleMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPirenzepineActionPathway
+name: "PirenzepineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRabeprazoleActionPathway
+name: "RabeprazoleActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRabeprazoleMetabolismPathway
+name: "RabeprazoleMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRanitidineActionPathway
+name: "RanitidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRoxatidineAcetateActionPathway
+name: "RoxatidineAcetateActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCetuximabActionPathway
+name: "CetuximabActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayErlotinibActionPathway
+name: "ErlotinibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGefitinibActionPathway
+name: "GefitinibActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPanitumumabActionPathway
+name: "PanitumumabActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrastuzumabActionPathway
+name: "TrastuzumabActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayArrhythmogenicRightVentricularCardiomyopathyArvc
+name: "ArrhythmogenicRightVentricularCardiomyopathyArvc"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHypertrophicCardiomyopathyHcm
+name: "HypertrophicCardiomyopathyHcm"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDimethylallylDiphosphateBiosynthesis
+name: "DimethylallylDiphosphateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDesipramineMetabolismPathway
+name: "DesipramineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLevomethadylAcetateMetabolismPathway
+name: "LevomethadylAcetateMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEndometrialCancer
+name: "EndometrialCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFocalAdhesion
+name: "FocalAdhesion"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMelanoma
+name: "Melanoma"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMtorSignalingPathway
+name: "MtorSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTightJunction
+name: "TightJunction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDegradationOfSuperoxides
+name: "DegradationOfSuperoxides"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVincristineActionPathway
+name: "VincristineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayVindesineActionPathway
+name: "VindesineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLipoicAcidMetabolism
+name: "LipoicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinLipoylationViaEndogenousPathway
+name: "ProteinLipoylationViaEndogenousPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHyaluronanBiosynthesis
+name: "HyaluronanBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHeparanSulfateBiosynthesis
+name: "HeparanSulfateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAngiotensinMetabolism
+name: "AngiotensinMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBenazeprilActionPathway
+name: "BenazeprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBenazeprilMetabolismPathway
+name: "BenazeprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCandesartanActionPathway
+name: "CandesartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCaptoprilActionPathway
+name: "CaptoprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCilazaprilActionPathway
+name: "CilazaprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCilazaprilMetabolismPathway
+name: "CilazaprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEnalaprilActionPathway
+name: "EnalaprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEnalaprilMetabolismPathway
+name: "EnalaprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEprosartanActionPathway
+name: "EprosartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayForasartanActionPathway
+name: "ForasartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFosinoprilActionPathway
+name: "FosinoprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFosinoprilMetabolismPathway
+name: "FosinoprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIrbesartanActionPathway
+name: "IrbesartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLisinoprilActionPathway
+name: "LisinoprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLosartanActionPathway
+name: "LosartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMoexiprilActionPathway
+name: "MoexiprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMoexiprilMetabolismPathway
+name: "MoexiprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayOlmesartanActionPathway
+name: "OlmesartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPerindoprilActionPathway
+name: "PerindoprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuinaprilActionPathway
+name: "QuinaprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuinaprilMetabolismPathway
+name: "QuinaprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRamiprilActionPathway
+name: "RamiprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRamiprilMetabolismPathway
+name: "RamiprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRescinnamineActionPathway
+name: "RescinnamineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpiraprilActionPathway
+name: "SpiraprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpiraprilMetabolismPathway
+name: "SpiraprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTelmisartanActionPathway
+name: "TelmisartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTemocaprilActionPathway
+name: "TemocaprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTemocaprilMetabolismPathway
+name: "TemocaprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrandolaprilActionPathway
+name: "TrandolaprilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTrandolaprilMetabolismPathway
+name: "TrandolaprilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayValsartanActionPathway
+name: "ValsartanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFosphenytoinAntiarrhythmicMetabolismPathway
+name: "FosphenytoinAntiarrhythmicMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHippoSignalingPathway
+name: "HippoSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRegulationOfActinCytoskeleton
+name: "RegulationOfActinCytoskeleton"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMolybdopterinBiosynthesis
+name: "MolybdopterinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathway5Methoxycarbonylmethyl2ThiouridineTrnaBiosynthesis
+name: "5Methoxycarbonylmethyl2ThiouridineTrnaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrionDiseases
+name: "PrionDiseases"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAbciximabActionPathway
+name: "AbciximabActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayEptifibatideActionPathway
+name: "EptifibatideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTirofibanActionPathway
+name: "TirofibanActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAbcTransporters
+name: "AbcTransporters"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCimetidineMetabolismPathway
+name: "CimetidineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylserineBiosynthesis
+name: "PhosphatidylserineBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFelodipineMetabolismPathway
+name: "FelodipineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTiclopidineActionPathway
+name: "TiclopidineActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTiclopidineMetabolismPathway
+name: "TiclopidineMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHepatitisC
+name: "HepatitisC"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRigILikeReceptorSignalingPathway
+name: "RigILikeReceptorSignalingPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCellAdhesionMoleculesCams
+name: "CellAdhesionMoleculesCams"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpermineDegradation
+name: "SpermineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAlphaLinolenicAcidAndLinoleicAcidMetabolism
+name: "AlphaLinolenicAcidAndLinoleicAcidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPutrescineBiosynthesisViaAgmatinePathway
+name: "PutrescineBiosynthesisViaAgmatinePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrednisoloneActionPathway
+name: "PrednisoloneActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPrednisoloneMetabolismPathway
+name: "PrednisoloneMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayTriacylglycerolBiosynthesis
+name: "TriacylglycerolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUdpAlphaDXyloseBiosynthesis
+name: "UdpAlphaDXyloseBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChondroitinSulfateBiosynthesis
+name: "ChondroitinSulfateBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhosphatidylglycerolBiosynthesis
+name: "PhosphatidylglycerolBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPurineNucleosideSalvage
+name: "PurineNucleosideSalvage"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBladderCancer
+name: "BladderCancer"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDtmpBiosynthesisViaSalvagePathway
+name: "DtmpBiosynthesisViaSalvagePathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNicotineAddiction
+name: "NicotineAddiction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhenylacetateMetabolism
+name: "PhenylacetateMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFluorouracilActionPathway
+name: "FluorouracilActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFluorouracilMetabolismPathway
+name: "FluorouracilMetabolismPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLValineDegradation
+name: "LValineDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGlibenclamideActionPathway
+name: "GlibenclamideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayGliclazideActionPathway
+name: "GliclazideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNateglinideActionPathway
+name: "NateglinideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPancreasFunction
+name: "PancreasFunction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRepaglinideActionPathway
+name: "RepaglinideActionPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayPhospholipidMetabolism
+name: "PhospholipidMetabolism"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayFadBiosynthesis
+name: "FadBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayApoptosis
+name: "Apoptosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayAxonGuidance
+name: "AxonGuidance"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBacterialInvasionOfEpithelialCells
+name: "BacterialInvasionOfEpithelialCells"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHemeABiosynthesis
+name: "HemeABiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayBasalTranscriptionFactors
+name: "BasalTranscriptionFactors"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayChronicMyeloidLeukemia
+name: "ChronicMyeloidLeukemia"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayN7MethylguanineTrnaBiosynthesis
+name: "N7MethylguanineTrnaBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDGluconateDegradation
+name: "DGluconateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayDnaReplicationFork
+name: "DnaReplicationFork"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwaySpliceosome
+name: "Spliceosome"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayProteinLipoylationViaExogenousPathway
+name: "ProteinLipoylationViaExogenousPathway"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayCircadianRhythm
+name: "CircadianRhythm"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayIntestinalImmuneNetworkForIgaProduction
+name: "IntestinalImmuneNetworkForIgaProduction"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayMeasles
+name: "Measles"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayRibosomeBiogenesisInEukaryotes
+name: "RibosomeBiogenesisInEukaryotes"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayNGlycanDegradation
+name: "NGlycanDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayHeparinBiosynthesis
+name: "HeparinBiosynthesis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayQuercetinDegradation
+name: "QuercetinDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayLegionellosis
+name: "Legionellosis"
+typeOf: dcs:KeggProteinPathwayEnum
+
+Node: dcid:KeggProteinPathwayUrateDegradation
+name: "UrateDegradation"
+typeOf: dcs:KeggProteinPathwayEnum
+

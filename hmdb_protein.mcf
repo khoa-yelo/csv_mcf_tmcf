@@ -1,0 +1,77 @@
+
+#Properties 
+
+Node: dcid:proteinType
+name: "proteinType"
+typeOf: schema:Protperty
+domainIncludes: dcs:Protein
+rangeIncludes: dcs:ProteinTypeEnum
+description: "Type of Protein"
+
+Node: dcid:proteinGeneralFunction
+name: "proteinGeneralFunction" 
+typeOf: schema:Property
+domainIncludes: dcs:Protein
+rangeIncludes: schema:Text
+description: "Short 3-4 word summary of the primary functions."
+descriptionUrl: "https://hmdb.ca/sources"
+
+Node: dcid:proteinSpecificFunction 
+name: "proteinSpecificFunction"
+typeOf: schema:Property 
+rangeIncludes: schema:Text
+domainIncludes: dcs:Protein 
+description: "Detailed 30-40 word summary of the specific functions."
+descriptionUrl: "https://hmdb.ca/sources"
+
+Node: dcid: aminoAcidResidueNumber
+name: "aminoAcidResidueNumber"
+typeOf: schema:Property 
+domainIncludes: dcs:Protein
+rangeIncludes: schema: Number 
+description: "Number of amino acids in the protein sequence."
+descriptionUrl: "https://hmdb.ca/sources"
+
+Node: dcid:associatedProtein 
+name: "associatedProtein"
+typeOf: schema:Property
+rangeIncludes: dcs:Protein
+domainIncludes: dcs:Metabolite 
+description: "Associated protein"
+
+Node: dcid: keggProteinPathway
+name: "keggProteinPathway"
+typeOf: schema:Property
+rangeIncludes: dcs:keggProteinPathwayEnum
+domainIncludes: dcs:Protein
+description: "Metabolic Pathways"
+descriptionUrl: "https://hmdb.ca/sources"
+
+Node: dcid: inGeneOntologyAnnotation
+name: "associatedGeneOntologyAnnotation"
+typeOf: schema:Property
+rangeIncludes: dcs:GeneOntologyAnnotation
+domainIncludes: dcs:Protein
+description: "Gene ontology annotation associated with protein."
+
+Node: dcid:geneOntologyDescription
+name: "geneOntologyDescription"
+typeOf: schema:Property
+rangeIncludes: schema:Text
+domainIncludes: dcs:GeneOntologyAnnotation
+description: "Description of Gene Ontology Annotation"
+
+
+#Existed
+Node: dcid: genBankID
+domainIncludes: dcs: Protein
+
+#Existed
+Node: dcid:geneOntologyID
+typeOf: schema:Property
+domainIncludes: Protein
+
+#Existed
+Node: dcid:humanMetabolomeDatabaseID
+typeOf: schema:Property 
+domainIncludes: dcs:Protein
