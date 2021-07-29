@@ -1,0 +1,10 @@
+Node: E:hmdb_go->E1
+typeOf: dcs:GeneOntologyAnnotation
+geneOntologyType: C:hmdb_go->go_category
+geneOntologyDescription: C:hmdb_go->go_description
+dcid: C:hmdb_go->go_id
+
+Node: E:hmdb_go->E2
+typeOf: dcs:Protein
+dcid: C:hmdb_go->protein_dcid
+inGeneOntologyAnnotation: E:hmdb_go->E1
